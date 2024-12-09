@@ -24,6 +24,7 @@
 Morphological Matching for Similar Image Detection
 
 **Project Description**
+
 This project is designed to detect and retrieve similar images from a dataset using a pretrained VGG16 model for feature extraction. A user-friendly GUI, built with **Tkinter**, allows users to:  
 -	Upload an image for analysis.
 -	Process the image using the trained model.
@@ -45,6 +46,7 @@ Niharika Janardhan Konduru (Z23812515)
 
 **Software Used**
 Python 3.7+
+
 TensorFlow/Keras: For deep learning-based image feature extraction.
 OpenCV: For image preprocessing and manipulation.
 Pillow (PIL): For image handling in the GUI.
