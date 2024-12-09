@@ -1,0 +1,10 @@
+.git
+caltech-101
+custom_shapes
+dist
+Dummy
+myenv
+dataset_df.csv
+finalgui.exe
+vgg16_feature_extractor.h5
+features_matrix.npy

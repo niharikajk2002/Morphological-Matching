@@ -1,0 +1,14 @@
+# Exclude the following folders
+Dummy/
+myenv/
+
+# Exclude temporary or unnecessary files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Exclude output directories (optional if you rerun builds often)
+dist/
+build/
