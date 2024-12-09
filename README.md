@@ -1,4 +1,4 @@
-Table of Contents
+**Table of Contents**
 1.	Project Title
 2.	Project Description
 3.	Team Members
@@ -20,22 +20,22 @@ Table of Contents
 11.	Expected Output
 12.	References and Resources
 
-Project Title
+**Project Title**
 Morphological Matching for Similar Image Detection
 
-Project Description
+**Project Description**
 This project is designed to detect and retrieve similar images from a dataset using a pretrained VGG16 model for feature extraction. A user-friendly GUI, built with **Tkinter**, allows users to:  
 -	Upload an image for analysis.
 -	Process the image using the trained model.
 -	View the top 10 similar images with their labels and similarity scores.
 
-Team Members
+**Team Members**
 Yaswanth Bharath Soma (Z23744408)
 Naga Keerthi Thota (Z23789716)
 Rishika Reddy Aleti (Z23741614)
 Niharika Janardhan Konduru (Z23812515)
 
-Features
+**Features**
 -	Extracts image embeddings using a pretrained VGG16 model.
 -	Calculates the cosine similarity between the input image and the dataset images.
 -	Displays the top 10 similar images with labels and similarity scores.
@@ -43,7 +43,7 @@ Features
 -	Includes error handling with warnings and user-friendly messages.
 
 
-Software Used
+**Software Used**
 Python 3.7+
 TensorFlow/Keras: For deep learning-based image feature extraction.
 OpenCV: For image preprocessing and manipulation.
@@ -53,7 +53,7 @@ NumPy: For numerical computations.
 Pandas: For handling and analyzing the dataset.
 SciPy: For calculating similarity metrics.
 
-Installation and Setup
+**Installation and Setup**
 Prerequisites
 1.	Install Python 3.10 on your system.
 2.	Install pip (Python's package manager) if not already installed..
@@ -77,16 +77,16 @@ Code
 Code
 -	python finalgui.py
 
-Input Image Requirements
+**Input Image Requirements**
 -	Accepted Formats: .jpg, .jpeg, .png, .bmp, .tiff
 -	Recommended Dimensions: Images will be resized to 224x224 pixels for processing.
 
-Operating System
+**Operating System**
 The program has been tested on the following platforms:
 -	Windows 10/11
 -	Linux (Ubuntu 20.04 or later)
 
-How to Use
+**How to Use**
 1.	Load an Image:
 Click the "Load Image" button to upload an image file from your computer.
 2.	Submit for Processing:
@@ -97,7 +97,7 @@ Thumbnails of the similar images are displayed for quick visualization.
 4.	Clear Output:
 Click the "Clear Output" button to reset the interface for a new query.
 
-File Descriptions
+**File Descriptions**
 Main Files
 finalgui.py: Main script to run the application. Implements the GUI and similarity detection functionality.
 vgg16_feature_extractor.h5: Pretrained VGG16 model for extracting image embeddings.
@@ -107,14 +107,14 @@ dataset_df.csv: CSV file containing image metadata (paths and labels).
 Supporting Files
 requirements.txt: Contains a list of Python packages required for the project.
 
-Expected Output
+**Expected Output**
 1.	The application will display the top 10 similar images from the dataset along with:
 -	Image Paths
 -	Labels
 -	Cosine Similarity Scores
 2.	Thumbnails of the top 10 similar images will be displayed in the GUI.
 
-References and Resources
+**References and Resources**
 1.	VGG16 Documentation: https://www.tensorflow.org/api_docs/python/tf/keras/applications/VGG16
 2.	Tkinter Documentation: https://docs.python.org/3/library/tkinter.html
 3.	OpenCV Documentation: https://opencv.org/
